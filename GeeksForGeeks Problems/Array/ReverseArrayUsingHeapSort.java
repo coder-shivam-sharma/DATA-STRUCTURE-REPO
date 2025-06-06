@@ -8,7 +8,7 @@ public class ReverseArrayUsingHeapSort
         int right = 2*i+2;
 
         //if left is greater than root than push it right 
-        if (left < n && arr[left] >arr[largest]|){
+        if (left < n && arr[left] >arr[largest]){
             largest = left;
         }
         //right child greater than root 
@@ -45,8 +45,7 @@ public class ReverseArrayUsingHeapSort
 
        // solution 
        ReverseArrayUsingHeapSort newarr = new ReverseArrayUsingHeapSort(); 
-       newarr.heapify(arr)
 
-       System.err.println("Second Largest Number"+result);
+       System.err.println("Second Largest Number");
     }
 }
